@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Keyword Finder",
+    "version": "1.0",
+    "description": "This is a Keyword Finder extension",
+    "icons":{
+        "128": "icon128.png",
+        "48": "icon48.png",
+        "16": "icon16.png"
+    },
+    "content_scripts": [{
+        "matches":    ["*://*/*"],
+        "js":         [ "jquery-3.4.1.min.js", "content.js"]
+   
+    }] 
+}
