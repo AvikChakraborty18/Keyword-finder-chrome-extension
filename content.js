@@ -26,7 +26,7 @@ $(function(){
      
         if(regexTestMetaDesc == true){
          
-           
+           window.location.href = "https://www.google.com/"
         }
     }
 });
